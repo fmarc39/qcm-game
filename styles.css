@@ -24,7 +24,7 @@ body {
     grid-template-columns: 200px 50px 450px;
     grid-template-rows: 200px 250px auto;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px 10px rgba(165, 165, 165, 0.637);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.287);
     display: none;
     
 
@@ -39,7 +39,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px 10px rgba(165, 165, 165, 0.637);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.287);
+    
     
 }
 
@@ -58,12 +59,13 @@ body {
     border: none;
     color: white;
     background-color: black;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.287);
 }
 
 #startbtn:hover {
 
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+    transform: scale(0.95);
 }
 
 #hide {
@@ -78,7 +80,7 @@ body {
     grid-template-columns: 200px 50px 450px;
     grid-template-rows: 200px 250px auto;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px 10px rgba(165, 165, 165, 0.637);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.287);
     
 }
 
@@ -98,7 +100,7 @@ img {
 #questions {
 
     margin-top: 20px;
-    box-shadow: 3px 3px 3px 5px lightgray;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.287);
     height: 80px;
     width: 400px;
     grid-column-start: 3;
@@ -170,19 +172,19 @@ img {
 
 .prop {
 
-    box-shadow: 2px 2px 2px 4px lightgrey ;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.191);
     height: 100px;
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .prop:hover {
 
     transform: scale(1.1);
-    transition-duration: 0.3s;
     
 }
 
